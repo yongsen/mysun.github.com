@@ -25,16 +25,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-146052-10']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -83,16 +73,15 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Getting started</h1>
-    <p class="lead">Overview of the project, its contents, and how to get started with a simple template.</p>
+    <h1>My Young Sun</h1>
+    <p class="lead">Time, Space, People and Event.</p>
   </div>
 </header>
 
 
   <div class="container">
 
-    <!-- Docs nav
-    ================================================== -->
+    <!-- Docs nav ================================================== -->
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav">
@@ -107,9 +96,7 @@
       <div class="span9">
 
 
-
-        <!-- Download
-        ================================================== -->
+        <!-- Download ================================================== -->
         <section id="download-bootstrap">
           <div class="page-header">
             <h1>1. Download</h1>
@@ -131,35 +118,31 @@
         </section>
 
 
-
-        <!-- File structure
-        ================================================== -->
+        <!-- File structure ================================================== -->
         <section id="file-structure">
           <div class="page-header">
             <h1>2. File structure</h1>
           </div>
           <p class="lead">Within the download you'll find the following file structure and contents, logically grouping common assets and providing both compiled and minified variations.</p>
           <p>Once downloaded, unzip the compressed folder to see the structure of (the compiled) Bootstrap. You'll see something like this:</p>
-<pre class="prettyprint">
-  bootstrap/
-  ├── css/
-  │   ├── bootstrap.css
-  │   ├── bootstrap.min.css
-  ├── js/
-  │   ├── bootstrap.js
-  │   ├── bootstrap.min.js
-  └── img/
-      ├── glyphicons-halflings.png
-      └── glyphicons-halflings-white.png
-</pre>
+          <pre class="prettyprint">
+            bootstrap/
+            ├── css/
+            │   ├── bootstrap.css
+            │   ├── bootstrap.min.css
+            ├── js/
+            │   ├── bootstrap.js
+            │   ├── bootstrap.min.js
+            └── img/
+                ├── glyphicons-halflings.png
+                └── glyphicons-halflings-white.png
+          </pre>
           <p>This is the most basic form of Bootstrap: compiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>). The image files are compressed using <a href="http://imageoptim.com/">ImageOptim</a>, a Mac app for compressing PNGs.</p>
           <p>Please note that all JavaScript plugins require jQuery to be included.</p>
         </section>
 
 
-
-        <!-- Contents
-        ================================================== -->
+        <!-- Contents ================================================== -->
         <section id="contents">
           <div class="page-header">
             <h1>3. What's included</h1>
@@ -201,50 +184,46 @@
         </section>
 
 
-
-        <!-- HTML template
-        ================================================== -->
+        <!-- HTML template ================================================== -->
         <section id="html-template">
           <div class="page-header">
             <h1>4. Basic HTML template</h1>
           </div>
           <p class="lead">With a brief intro into the contents out of the way, we can focus on putting Bootstrap to use. To do that, we'll utilize a basic HTML template that includes everything we mentioned in the <a href="#file-structure">File structure</a>.</p>
           <p>Now, here's a look at a <strong>typical HTML file</strong>:</p>
-<pre class="prettyprint linenums">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;
-    &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
-          <p>To make this <strong>a Bootstrapped template</strong>, just include the appropriate CSS and JS files:</p>
-<pre class="prettyprint linenums">
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
-    &lt;!-- Bootstrap --&gt;
-    &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;h1&gt;Hello, world!&lt;/h1&gt;
-    &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
-    &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+          <pre class="prettyprint linenums">
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Hello, world!&lt;/h1&gt;
+              &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+          </pre>
+                    <p>To make this <strong>a Bootstrapped template</strong>, just include the appropriate CSS and JS files:</p>
+          <pre class="prettyprint linenums">
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;Bootstrap 101 Template&lt;/title&gt;
+              &lt;!-- Bootstrap --&gt;
+              &lt;link href="css/bootstrap.min.css" rel="stylesheet" media="screen"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Hello, world!&lt;/h1&gt;
+              &lt;script src="http://code.jquery.com/jquery-latest.js"&gt;&lt;/script&gt;
+              &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+          </pre>
           <p><strong>And you're set!</strong> With those two files added, you can begin to develop any site or application with Bootstrap.</p>
         </section>
 
 
-
-        <!-- Examples
-        ================================================== -->
+        <!-- Examples ================================================== -->
         <section id="examples">
           <div class="page-header">
             <h1>5. Examples</h1>
@@ -306,10 +285,7 @@
         </section>
 
 
-
-
-        <!-- Next
-        ================================================== -->
+        <!-- Next ================================================== -->
         <section id="what-next">
           <div class="page-header">
             <h1>What next?</h1>
@@ -319,18 +295,13 @@
           <a class="btn btn-large" href="./customize.html" style="margin-left: 5px;" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Next steps', 'Customize']);">Customize Bootstrap</a>
         </section>
 
-
-
-
       </div>
     </div>
 
   </div>
 
 
-
-    <!-- Footer
-    ================================================== -->
+    <!-- Footer ================================================== -->
     <footer class="footer">
       <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
@@ -348,9 +319,7 @@
     </footer>
 
 
-
-    <!-- Le javascript
-    ================================================== -->
+    <!-- Le javascript ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="assets/js/jquery.js"></script>
@@ -371,8 +340,7 @@
     <script src="assets/js/application.js"></script>
 
 
-    <!-- Analytics
-    ================================================== -->
+    <!-- Analytics ================================================== -->
     <script>
       var _gauges = _gauges || [];
       (function() {
